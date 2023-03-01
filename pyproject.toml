@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ezlog"
+name = "ezloglib"
 version = "1.0.0"
 description = "Small modern colored logging library"
 readme = "README.md"

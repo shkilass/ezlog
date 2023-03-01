@@ -1,6 +1,6 @@
 
 # other
-ezlog.egg-info/
+ezloglib.egg-info/
 example.log
 
 # python cache
@@ -10,3 +10,6 @@ ezlog/__pycache__/
 # docs builded files
 docs/build/*
 !docs/build/.gitkeep
+
+# pypi build
+dist/
