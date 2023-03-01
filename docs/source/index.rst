@@ -20,7 +20,7 @@ Just install this library via command:
 
 .. code-block:: shell
 
-    pip install ezlog
+    pip install ezloglib
 
 Create new file and write to it a code bottom. Result of this example you can
 see on the image on top.

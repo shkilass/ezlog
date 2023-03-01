@@ -10,13 +10,13 @@ To install this library, simply type this command (Windows variant):
 
 .. code-block:: shell
 
-    pip install ezlog
+    pip install ezloglib
 
 On linux systems, you must use ``pip3`` instead of. Command:
 
 .. code-block:: shell
 
-    pip3 install ezlog
+    pip3 install ezloglib
 
 First handlers
 --------------
