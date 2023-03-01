@@ -1,6 +1,0 @@
-2023.03.01 15:58:26.1738 | DEBUG              | Example.Groups     -> Main               — This is debug message — ln:15 fn:<module>
-2023.03.01 15:58:26.1738 | EXCEPTION          | Example.Groups     -> Main               — This is exception message — ln:16 fn:<module>
-2023.03.01 15:58:26.1738 | INFO               | Example.Groups     -> Main               — This is info message — ln:17 fn:<module>
-2023.03.01 15:58:26.1738 | WARNING            | Example.Groups     -> Main               — This is warning message — ln:18 fn:<module>
-2023.03.01 15:58:26.2232 | ERROR              | Example.Groups     -> Main               — This is error message — ln:19 fn:<module>
-2023.03.01 15:58:26.2232 | CRITICAL           | Example.Groups     -> Main               — This is critical message — ln:20 fn:<module>
