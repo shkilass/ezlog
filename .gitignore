@@ -1,0 +1,11 @@
+
+# other
+ezlog.egg-info/
+
+# python cache
+__pycache__/
+ezlog/__pycache__/
+
+# docs builded files
+docs/build/*
+!docs/build/.gitkeep

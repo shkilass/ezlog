@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ezlog"
+version = "1.0.0"
+description = "Small modern colored logging library"
+readme = "README.md"
+authors = [{ name = "ftdot", email = "ftdoot@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Environment :: Plugins",
+    "Framework :: Sphinx",
+    "Natural Language :: English",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Documentation :: Sphinx",
+    "Topic :: System :: Logging",
+]
+keywords = ["easy", "colored", "color", "library", "logging", "logs"]
+dependencies = [
+    "colorama",
+]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["sphinx", "furo"]
+
+[project.urls]
+Homepage = "https://github.com/ftdot/ezlog"
