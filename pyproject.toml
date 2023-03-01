@@ -32,3 +32,4 @@ dev = ["sphinx", "furo"]
 
 [project.urls]
 Homepage = "https://github.com/ftdot/ezlog"
+Documentation = "https://ezlog.readthedocs.io/"
