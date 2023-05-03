@@ -9,7 +9,7 @@ Library
 .. note:: Modules ``ezlog.logger``, ``ezlog.loggergroup``, ``ezlog.handlers``
     and :class:`ezlog.utils.LogLevel` not required to import separately.
     You can simply import ``ezlog`` and use them without ``ezlog.logger.Logger``,
-    ``ezlog.utils.LogLevel`. Other modules required to use as
+    ``ezlog.utils.LogLevel``. Other modules required to use as
     ``ezlog.exceptions.StringGroupNotFoundException``.
 
 ezlog.logger
