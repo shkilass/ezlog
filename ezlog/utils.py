@@ -122,9 +122,4 @@ def register_bindings(cls: 'Logger'):
 
     # make bindings to the all log levels
     for level, name in level_names.items():
-        name_l = name.lower()
-
-        if getattr(cls, name_l, None) is not None:
-            continue
-
         setattr(cls, name.lower(), make_logger_binding(level))
