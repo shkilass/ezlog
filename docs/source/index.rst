@@ -9,7 +9,7 @@ ezlog documentation
 **Modern, simple in use, colored logging library for python.**
 
 * Formatting support
-* Stdout\Stderr\File handlers
+* Stdout\\Stderr\\File handlers
 * Easy to use & add custom handlers
 * Colored and customizable
 
