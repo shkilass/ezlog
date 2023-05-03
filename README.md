@@ -79,7 +79,7 @@ except Exception as e:
 main_logger.info('It is continue work')
 ```
 
-File: [examples/presentation.py](examples/groups_filelogging.py)
+File: [examples/groups_filelogging.py](examples/groups_filelogging.py)
 
 ```py
 
