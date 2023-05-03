@@ -1,6 +1,7 @@
 
 # other
 ezloglib.egg-info/
+.idea/
 example.log
 
 # python cache

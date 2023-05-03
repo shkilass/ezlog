@@ -10,7 +10,7 @@
 [![Latest tag](https://img.shields.io/github/v/tag/ftdot/ezlog?style=for-the-badge)](https://github.com/ftdot/ezlog/tags)
 [![PyPI](https://img.shields.io/pypi/v/ezloglib?style=for-the-badge)](https://pypi.org/project/ezloglib)
   
-Modern, simple in use, colored logging library for python.
+Modern, simple in use, fast, colored logging library for python.
 
 * Formatting support
 * Stdout\\Stderr\\File handlers
