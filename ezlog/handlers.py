@@ -8,6 +8,7 @@ from os import PathLike
 from typing import TextIO
 
 from .utils import LogLevel, level_names
+from ._types import LogLevelType
 
 __all__ = ['LoggerHandler', 'FileHandler', 'StdoutHandler', 'StderrHandler',]
 
@@ -17,7 +18,7 @@ class LoggerHandler:
 
     def __init__(self,
                  io: TextIO | None = None,
-                 log_level: int | str = LogLevel.NOTSET,
+                 log_level: LogLevelType = LogLevel.NOTSET,
                  colors: bool = True,
                  exceptions: bool = True):
         """
@@ -32,7 +33,7 @@ class LoggerHandler:
         """
 
         self.io          = io
-        self.log_level   = log_level if isinstance(log_level, LogLevel) else {v: k for k, v in level_names.items()}[log_level.upper()]
+        self.log_level   = log_level if isinstance(log_level, int) else {v: k for k, v in level_names.items()}[log_level.upper()]
         self.colors      = colors
         self.exceptions  = exceptions
 
@@ -73,7 +74,7 @@ class FileHandler(LoggerHandler):
         :param io: TextIO to handle
         :type io: TextIO
         :param log_level: Level of logging (by default is LogLevel.NOTSET)
-        :type log_level: LogLevel
+        :type log_level: LogLevelType
         :param colors: Enable colors for the handler
         :type colors: bool
         :param exceptions: Enable exception handling for this handler
@@ -104,7 +105,7 @@ class StdoutHandler(LoggerHandler):
         :param io: TextIO to handle
         :type io: TextIO
         :param log_level: Level of logging (by default is LogLevel.NOTSET)
-        :type log_level: LogLevel
+        :type log_level: LogLevelType
         :param colors: Enable colors for the handler
         :type colors: bool
         :param exceptions: Enable exception handling for this handler
@@ -130,7 +131,7 @@ class StderrHandler(LoggerHandler):
         :param io: TextIO to handle
         :type io: TextIO
         :param log_level: Level of logging (by default is LogLevel.NOTSET)
-        :type log_level: LogLevel
+        :type log_level: LogLevelType
         :param colors: Enable colors for the handler
         :type colors: bool
         :param exceptions: Enable exception handling for this handler

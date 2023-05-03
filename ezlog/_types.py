@@ -2,4 +2,5 @@
 Declares types of this logging library
 """
 
-ColorSetType = dict[str, dict[type | str, str]]
+LogLevelType = int | str
+ColorSetType = dict[str, dict[LogLevelType | type | str, str]]
